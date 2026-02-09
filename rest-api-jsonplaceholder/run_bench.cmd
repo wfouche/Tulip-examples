@@ -7,3 +7,5 @@ call jbang.cmd run ^
    --config benchmark_config.json
 
 call gen_report.cmd
+
+start benchmark_report.html
