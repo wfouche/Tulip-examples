@@ -44,9 +44,4 @@ public class APIUser extends HttpUser {
     // Logger
     private static final Logger logger = LoggerFactory.getLogger(APIUser.class);
 
-    // Main method to run the Tulip load test
-    public static void main(String[] args) {
-        TulipApi.runTulip("benchmark_config.jsonc");
-    }
-
 }
