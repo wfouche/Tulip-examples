@@ -6,7 +6,6 @@
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import io.github.wfouche.tulip.api.TulipApi;
 import io.github.wfouche.tulip.user.HttpUser;
 
 public class APIUser extends HttpUser {
