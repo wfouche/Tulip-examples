@@ -46,7 +46,7 @@ public class APIUser extends HttpUser {
 
     // Main method to run the Tulip load test
     public static void main(String[] args) {
-        TulipApi.runTulip("benchmark_config.json");
+        TulipApi.runTulip("benchmark_config.jsonc");
     }
 
 }
