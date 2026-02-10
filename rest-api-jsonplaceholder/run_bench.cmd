@@ -1,5 +1,5 @@
 call jbang.cmd run ^
-   --java 25 ^
+   --java 21 ^
    --files logback.xml ^
    --deps io.github.wfouche.tulip:tulip-runtime:2.2.3 ^
    -m io.github.wfouche.tulip.api.TulipApi ^
