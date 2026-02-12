@@ -6,8 +6,6 @@ import io.github.wfouche.tulip.user.HttpUser
 
 class APIUser extends HttpUser {
 
-    private static final Logger log = LoggerFactory.getLogger(APIUser)
-
     // Action 1: GET /posts
     boolean action1() {
         def response = httpGet("/posts")
@@ -35,6 +33,9 @@ class APIUser extends HttpUser {
     }
 
     Logger logger() {
-        log
+        elog
     }
+
+    private static final Logger elog = LoggerFactory.getLogger(APIUser)
+
 }

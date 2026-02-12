@@ -33,11 +33,11 @@ class APIUser : HttpUser() {
     }
 
     override  fun logger(): Logger {
-        return logger
+        return elog
     }
 
     companion object {
         // Logger
-        private val logger: Logger = LoggerFactory.getLogger(APIUser::class.java)
+        private val elog: Logger = LoggerFactory.getLogger(APIUser::class.java)
     }
 }
