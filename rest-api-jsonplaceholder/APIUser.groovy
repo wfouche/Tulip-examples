@@ -2,7 +2,7 @@
 
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
-import io.github.wfouche.tulip.user.HttpUser
+import io.github.tulipltt.tulip.user.HttpUser
 
 class APIUser extends HttpUser {
 
