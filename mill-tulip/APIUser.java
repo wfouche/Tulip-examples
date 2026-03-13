@@ -1,12 +1,12 @@
 //| jvmVersion: 25
-//| forkArgs: ["-Xmx1g", "-XX:+UseZGC"]
+//| forkArgs: ["-Xmx1g", "-XX:+UseZGC", "--enable-native-access=ALL-UNNAMED", "--sun-misc-unsafe-memory-access=allow"]
 //| mvnDeps:
 //| - io.github.tulipltt:tulip-runtime:2.3.0
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import io.github.tulipltt.tulip.user.HttpUser;
 import io.github.tulipltt.tulip.api.TulipApi;
+import io.github.tulipltt.tulip.user.HttpUser;
 
 public class APIUser extends HttpUser {
 
@@ -23,7 +23,7 @@ public class APIUser extends HttpUser {
             "title": "Tulip Test Post",
             "body": "This is a test post created during load testing",
             "userId": 1
-        }       
+        }
         """;
         var response = httpPost(payload, "/posts");
         return response.isSuccessful();
