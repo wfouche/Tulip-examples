@@ -1,11 +1,11 @@
 //| jvmVersion: 21.0.9
 //| mvnDeps:
-//| - io.github.wfouche.tulip:tulip-runtime:2.2.3
+//| - io.github.tulipltt:tulip-runtime:2.3.0
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import io.github.wfouche.tulip.user.HttpUser;
-import io.github.wfouche.tulip.api.TulipApi;
+import io.github.tulipltt.tulip.user.HttpUser;
+import io.github.tulipltt.tulip.api.TulipApi;
 
 public class APIUser extends HttpUser {
 
