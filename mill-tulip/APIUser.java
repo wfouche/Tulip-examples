@@ -1,4 +1,5 @@
-//| jvmVersion: 21.0.9
+//| jvmVersion: 25
+//| forkArgs: ["-Xmx1g", "-XX:+UseZGC"]
 //| mvnDeps:
 //| - io.github.tulipltt:tulip-runtime:2.3.0
 
