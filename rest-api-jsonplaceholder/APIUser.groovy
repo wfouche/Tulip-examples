@@ -33,9 +33,9 @@ class APIUser extends HttpUser {
     }
 
     Logger logger() {
-        elog
+        eventLog
     }
 
-    private static final Logger elog = LoggerFactory.getLogger(APIUser)
+    private static final Logger eventLog = LoggerFactory.getLogger(APIUser)
 
 }

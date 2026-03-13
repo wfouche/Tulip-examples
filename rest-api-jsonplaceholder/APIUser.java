@@ -31,10 +31,10 @@ public class APIUser extends HttpUser {
     }
 
     public Logger logger() {
-        return elog;
+        return eventLog;
     }
 
     // Logger
-    private static final Logger elog = LoggerFactory.getLogger(APIUser.class);
+    private static final Logger eventLog = LoggerFactory.getLogger(APIUser.class);
 
 }
